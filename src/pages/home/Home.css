@@ -1,0 +1,62 @@
+/* src/components/Home.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-container {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background: url('../../assets/images/school.png') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    margin-bottom: 50px;
+  }
+  
+  .home-header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  .home-header p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+  }
+  
+  .home-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .home-link {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .home-link:hover {
+    transform: translateY(-5px);
+    background-color: #0056b3;
+  }
+  
+  .home-link-icon {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  
+  .home-link-text {
+    font-size: 1.2em;
+  }
+  

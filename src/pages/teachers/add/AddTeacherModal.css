@@ -1,0 +1,59 @@
+/* Modal styles */
+.add-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Heading styles */
+.add-form h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Label styles */
+.add-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Input styles */
+.add-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.add-form button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Cancel button styles */
+.add-form button.cancel {
+  background-color: #ccc;
+  color: #333;
+}
+
+.add-form button.cancel:hover {
+  background-color: #bbb;
+}

@@ -1,0 +1,88 @@
+/* src/components/Teachers.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .teachers-container {
+    text-align: center;
+    color: #333;
+  }
+  
+  .teachers-header h1 {
+    margin: 0;
+  }
+
+  .add-teacher-button {
+    display: flex;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  
+  .add-teacher-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .teachers-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .teacher-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: 350px;
+    transition: transform 0.3s;
+  }
+  
+  .teacher-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .teacher-card h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .teacher-card p {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  

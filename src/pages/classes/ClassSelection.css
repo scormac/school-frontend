@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f8fc;
+  color: #333;
+}
+
+.class-selection-container {
+  padding: 5px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.class-selection-container h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.class-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.class-item {
+  position: relative;
+}
+
+.class-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.class-button:hover {
+  background-color: #0056b3;
+}
+
+.sections {
+  background-color: #fff;
+  color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.class-item .sections {
+  max-height: 200px; /* Adjust based on the content */
+  opacity: 1;
+}
+
+.section-item {
+  padding: 5px 0;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.section-item:last-child {
+  border-bottom: none;
+}
